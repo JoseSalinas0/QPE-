@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: rgba(7, 130, 178, 0.429);
+    text-align: center;
+    background-image: url(img/fp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+#titulo{
+    background: radial-gradient(circle at center, rgba(0, 255, 204, 0.279) 0, rgba(0, 17, 255, 0.174), rgba(0, 108, 22, 0.241) 100%);
+    position: relative;
+    margin-top: 0px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+#preguntas{
+    background: rgba(0, 0, 255, 0.148);
+    position: relative;
+    margin-top: 50px;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 50px;
+    display: none;
+}
+#Q{
+    color: rgba(32, 94, 186, 0.37);
+}
+.ans{
+    margin: 40px;
+    height: auto;
+    width: 300px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(32, 94, 186, 50);
+}
+.barra{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40%;
+    height: 100px;
+    width: 300px;
+    background-image: url(img/b5.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    color: rgba(210, 57, 57, 0.641);
+    display: none;
+}
+.img1{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 150px;
+    left: 15%;
+    border-radius: 50%;
+    background-image: url(img/pan_xd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(210, 57, 57, 0.641);
+}
+.img2{
+    position: absolute;
+    top: 150px;
+    left: 75%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url(img/pb.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(210, 57, 57, 0.641);
+}
+#inicio{
+    margin-top: 50px;
+    font-size: 45px;
+    background-color:  rgba(0, 0, 255, 0.148);
+    color: blueviolet;
+    display: block;
+}
+#bi{
+    margin: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: radial-gradient(circle at center, rgba(0, 255, 242, 0.706) 0, rgba(0, 17, 255, 0.335), rgba(0, 108, 22, 0.421) 100%);
+    cursor: pointer;
+}
+#final{
+    height: 500px;
+    margin-top: 50px;
+    background-color:  rgba(0, 0, 255, 0.148);
+    color: blueviolet;
+    font-size: 45px;
+    display: none;
+}
+#Ip{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+}
+#res{
+    margin: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 50px;
+    width: 250px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: radial-gradient(circle at center, rgba(0, 255, 242, 0.706) 0, rgba(0, 17, 255, 0.335), rgba(0, 108, 22, 0.421) 100%);
+    cursor: pointer;
+}
